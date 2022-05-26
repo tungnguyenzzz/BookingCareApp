@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="HOME">
+
+    </item>
+    <item android:id="@+id/nav_doc_List"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="DOCTORS">
+
+    </item>
+    <item android:id="@+id/nav_schedule"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="SCHEDULE">
+
+    </item>
+    <item android:id="@+id/nav_pharmacy"
+        android:icon="@drawable/ic_local_pharmacy_black_24dp"
+        android:title="PHARMACY">
+
+    </item>
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="LOGOUT">
+
+    </item>
+</group>
+</menu>

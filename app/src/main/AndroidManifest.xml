@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.CareFoMe">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_careforme"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_careforme_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogoutActivity"></activity>
+        <activity android:name=".MainPage" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Pharmacy_MapsActivity"
+            android:label="@string/title_activity_pharmacy__maps" />
+        <activity android:name=".splash_actitvity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationDrawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="Home" />
+        <activity
+            android:name=".DoctorsList"
+            android:label="Doctors" />
+        <activity
+            android:name=".RegisterPage"
+            android:label="Register If Not A Member" />
+        <activity
+            android:name=".FormDisplay"
+            android:label="Patient Details" />
+        <activity
+            android:name=".Appointment"
+            android:label="Book Apointment" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".ScheduleList"
+            android:label="Schedule" />
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+Họ tên: Nguyễn Thế Tùng - B18DCCN585 - Nhóm 8
+Tên đề tài: BookingCare (đặt lịch khám bênh của bác sĩ)
+Các chức năng: Người dùng đăng ký, đăng nhập, đặt lịch khám bệnh, xem lịch khám bệnh, xóa lịch khám bệnh,
+google map(em chưa làm được chức năng này)
